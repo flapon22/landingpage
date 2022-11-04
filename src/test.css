@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.hs-form-required {
+  display: none !important;
+}
+
+.hs-input.hs-fieldtype-intl-phone {
+  display: flex;
+}
+
+.hs-form label {
+  font-weight: bold;
+  color: rgb(59 130 246);
+  text-transform: uppercase;
+  font-size: 0.9em;
+  line-height: 21.79px;
+}
+
+.hs-form.hs-error-msg label {
+  color: #f2545b;
+  font-size: x-small;
+}
+fieldset {
+  max-width: none !important;
+  width: 100%;
+}
+.hs-form-field input[type="text"],
+.hs-form-field input[type="email"],
+.hs-form-field input[type="phone"],
+.hs-form-field input[type="number"],
+.hs-form-field input[type="tel"],
+.hs-form-field select {
+  width: 100% !important;
+  border: none;
+  padding: 10px;
+  height: 3rem !important;
+  background: #e3ecf1;
+}
+.hs-form-field select:required:invalid {
+  color: #bdbdbd !important;
+}
+.hs-form-field textarea.hs-input {
+  background: #e3ecf1;
+  width: 100% !important;
+  max-width: none !important;
+  resize: none;
+  border: none;
+  height: 13em !important;
+}
+.input textarea {
+  max-height: 132px !important;
+}
+.hubspot-link__container.sproket {
+  display: none;
+}
+.hs-button {
+  border-radius: 9999px !important;
+  box-shadow: 4px 5px 26px rgb(14 48 86 / 20%) !important;
+  background: rgb(59 130 246/1);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.8em;
+  line-height: 18px;
+  text-align: center;
+  padding: 1rem 2rem !important;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  border: none !important;
+  outline: 0 !important;
+}
+.actions {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding: 1rem;
+  display: inline-block;
+}
+@media (max-width: 768px) {
+  .hs-form {
+    padding: 0.5rem;
+  }
+}
