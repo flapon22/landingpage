@@ -9,6 +9,7 @@ const Hubform = () => {
     let frameListener;
 
     script.src = "https://js.hsforms.net/forms/v2.js";
+    script.defer = true;
 
     if (!mainNode.hasChildNodes()) {
       document.body.appendChild(script);
